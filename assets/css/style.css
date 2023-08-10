@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background: #4E1BF5 url(/assets/image/Header-small.png)no-repeat right bottom;
+    max-width: 100%;
+    min-width: 350px;
+}
+header h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 400;
+    font-size: 2rem;
+    color: white;
+
+    max-width: 278px;
+    margin: 0;
+    padding: 55px 20px 20px;
+}
+header p {
+    color: white;
+    text-align: justify;
+    padding: 0 15px 10px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding-bottom: 65px;
+}
+button {
+    width: 90%;
+    height: 54px;
+    border-radius: 28px;
+    font-weight: 400;
+    border: none;
+}
+#button-1 {
+    background-color: black;
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+.conteudo-principal img, #conteudo-final img {
+    max-width: 100%;
+}
+
+.conteudo-principal h1 {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+#conteudo-final h1 {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+section p {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+footer {
+    background-color: #23272A;
+    text-align: center;
+    padding: 50px;
+}
+
+footer img {
+    max-width: 162px;
+}
+
+@media screen and (min-width: 426px){
+
+    header {
+        background: url(/assets/image/Header.png) no-repeat;
+        background-size: cover;
+        max-width: 100%;
+        margin: auto;
+    }
+
+    header h1 {
+        max-width: 313px;
+        margin: auto;
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    header p {
+        max-width: 757px;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    #buttons {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    button {
+        width: auto;
+        height: 44px;
+        padding: 10px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .conteudo-principal {
+        max-width: 971px;
+        display: flex;
+        align-items: center;
+    }
+    .conteudo-principal h1 {
+        font-size: 2.5rem;
+    }
+    #conteudo-reverso{
+        flex-direction: row-reverse;
+    }
+    
+    .conteudo {
+        max-width: 348px;
+    }
+
+    #conteudo-final {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    #conteudo-final h1 {
+        max-width: 508px;
+        margin: 20px auto;
+    }
+    #conteudo-final p {
+        max-width: 808px;
+        margin: auto;
+    }
+}
