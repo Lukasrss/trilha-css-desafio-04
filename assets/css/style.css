@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background: #4E1BF5 url(/assets/image/Header-small.png)no-repeat right bottom;
+    background: #4E1BF5 url(../image/Header-small.png)no-repeat right bottom;
     max-width: 100%;
     min-width: 350px;
 }
@@ -83,7 +83,7 @@ footer img {
 @media screen and (min-width: 426px){
 
     header {
-        background: url(/assets/image/Header.png) no-repeat;
+        background: url(../image/Header.png) no-repeat;
         background-size: cover;
         max-width: 100%;
         margin: auto;
